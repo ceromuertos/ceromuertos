@@ -82,10 +82,10 @@ img{display:block;max-width:100%}
   inset:0 auto 0 0;
   width:67%;
   height:100%;
-  object-fit:cover;
+  object-fit:contain;
   object-position:31% 47%;
-  transform:scale(1.045);
-  filter:contrast(1.05) saturate(.93);
+  transform:scale(1.2);
+  filter:contrast(0.90) saturate(.8);
 }
 .hero::before{
   content:"";
@@ -317,8 +317,8 @@ img{display:block;max-width:100%}
 }
 .portfolio-intro p{
   margin:0 0 24px;
-  font-size:21px;
-  line-height:1.4;
+  font-size:20px;
+  line-height:1.05;
   color:#112e31;
 }
 .btn-dark{
