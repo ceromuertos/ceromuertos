@@ -304,7 +304,7 @@ img{display:block;max-width:100%}
   margin:0;
   font-family:"Cinzel", Georgia, serif;
   font-weight:400;
-  font-size:52px;
+  font-size:40px;
   line-height:1.05;
   letter-spacing:.08em;
   text-transform:uppercase;
@@ -317,8 +317,8 @@ img{display:block;max-width:100%}
 }
 .portfolio-intro p{
   margin:0 0 24px;
-  font-size:21px;
-  line-height:1.4;
+  font-size:40px;
+  line-height:1.05;
   color:#112e31;
 }
 .btn-dark{
@@ -458,7 +458,7 @@ img{display:block;max-width:100%}
   .product-copy h2{font-size:24px}
 
   .portfolio{grid-template-columns:1fr;gap:28px;padding:44px 22px}
-  .portfolio-intro h2{font-size:43px}
+  .portfolio-intro h2{font-size:34px}
   .portfolio-cards{grid-template-columns:1fr}
   .portfolio-card{min-height:auto}
 
@@ -481,7 +481,7 @@ img{display:block;max-width:100%}
   .product-card{grid-template-columns:1fr;text-align:center}
   .product-copy{text-align:center}
   .product-bottle,.dragon-bottle,.free-bottle{height:285px}
-  .portfolio-intro h2{font-size:38px}
+  .portfolio-intro h2{font-size:30px}
 }
 
 
