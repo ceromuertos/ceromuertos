@@ -78,7 +78,8 @@ img{display:block;max-width:100%}
   background:#06191c;
 }
 .hero-guardian{
-   width:58%;
+  position:absolute;
+  width:58%;
   height:92%;
   top:72px;
   left:28px;
@@ -437,7 +438,17 @@ img{display:block;max-width:100%}
   .social-top a{width:24px;height:24px}
 
   .hero{height:auto;min-height:820px}
-  .hero-guardian{width:100%;object-position:28% 50%;opacity:.88}
+  .hero-guardian{
+  position:absolute;
+  width:58%;
+  height:92%;
+  top:72px;
+  left:28px;
+  object-fit:contain;
+  object-position:left bottom;
+  transform:none;
+  }
+}
   .hero::before{background:linear-gradient(180deg, rgba(0,0,0,.48) 0%, rgba(2,15,17,.32) 35%, rgba(2,15,17,.92) 70%, rgba(2,15,17,1) 100%)}
   .hero-shade{display:none}
   .hero-copy{
