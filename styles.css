@@ -79,13 +79,12 @@ img{display:block;max-width:100%}
 }
 .hero-guardian{
   position:absolute;
-  top:-12.5%;
-  left:0;
-  width:84%;
-  height:125%;
+  inset:0 auto 0 0;
+  width:84% !important;
+  height:125% !important;
   object-fit:cover;
   object-position:31% 47%;
-  transform:none;
+  transform:none !important;
   filter:contrast(1.05) saturate(.93);
 }
 .hero::before{
@@ -305,7 +304,7 @@ img{display:block;max-width:100%}
   margin:0;
   font-family:"Cinzel", Georgia, serif;
   font-weight:400;
-  font-size:44.2px;
+  font-size:44.2px !important;
   line-height:1.05;
   letter-spacing:.08em;
   text-transform:uppercase;
@@ -360,9 +359,9 @@ img{display:block;max-width:100%}
 }
 
 .experiences-card img{
-  width:70%;
-  height:70%;
-  object-fit:contain;
+  width:70% !important;
+  height:70% !important;
+  object-fit:contain !important;
   border-radius:7px;
   filter:drop-shadow(0 14px 22px rgba(0,0,0,.35));
 }
@@ -448,7 +447,13 @@ img{display:block;max-width:100%}
   .social-top a{width:24px;height:24px}
 
   .hero{height:auto;min-height:820px}
-  .hero-guardian{width:125%;height:125%;top:-12.5%;left:-12.5%;object-position:28% 50%;opacity:.88;transform:none}
+  .hero-guardian{
+    width:125% !important;
+    height:125% !important;
+    object-position:28% 50%;
+    opacity:.88;
+    transform:none !important;
+  }
   .hero::before{background:linear-gradient(180deg, rgba(0,0,0,.48) 0%, rgba(2,15,17,.32) 35%, rgba(2,15,17,.92) 70%, rgba(2,15,17,1) 100%)}
   .hero-shade{display:none}
   .hero-copy{
@@ -467,7 +472,7 @@ img{display:block;max-width:100%}
   .product-copy h2{font-size:24px}
 
   .portfolio{grid-template-columns:1fr;gap:28px;padding:44px 22px}
-  .portfolio-intro h2{font-size:36.55px}
+  .portfolio-intro h2{font-size:36.55px !important}
   .portfolio-cards{grid-template-columns:1fr}
   .portfolio-card{min-height:auto}
 
@@ -490,7 +495,7 @@ img{display:block;max-width:100%}
   .product-card{grid-template-columns:1fr;text-align:center}
   .product-copy{text-align:center}
   .product-bottle,.dragon-bottle,.free-bottle{height:285px}
-  .portfolio-intro h2{font-size:32.3px}
+  .portfolio-intro h2{font-size:32.3px !important}
 }
 
 
